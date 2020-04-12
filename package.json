@@ -6,7 +6,6 @@
   "scripts": {
     "test": "test",
     "lint": "npx eslint src --fix -c .eslintrc",
-    "prebuild": "rimraf dist",
     "build": "cross-env NODE_ENV=production babel src -d dist",
     "serve:firebase": "firebase serve --only functions"
   },
