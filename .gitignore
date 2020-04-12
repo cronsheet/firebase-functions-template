@@ -1,0 +1,39 @@
+# IntelliJ project files
+.idea
+
+# VSCode project files
+.vscode
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Development
+.env*
+!.env.example
+
+# Builds
+lib/
+dist/
+*.tgz
+
+# Docs
+docs/
+wiki/
+
+# Nodejs
+node_modules/
+
+# NPM
+npm-debug.log*
+
+# Yarn
+yarn-error.log
+
+# Lerna
+lerna-debug.log
+
+# Firebase
+.firebase
+.firebaserc
+firebase-debug.log
